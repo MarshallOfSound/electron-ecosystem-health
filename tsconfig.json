@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"outDir": "lib",
+		"sourceMap": true,
+		"rootDir": "src",
+    "experimentalDecorators": true,
+		"allowJs": true,
+		"strict": true,
+		"allowSyntheticDefaultImports": true,
+		"strictNullChecks": true
+	},
+	"exclude": [
+		"node_modules",
+		"spec",
+		"lib",
+		"working",
+		"jest.config.js"
+	]
+}
